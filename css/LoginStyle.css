@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Righteous&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #DDFFD6;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+#div1 {
+    background-color: #51B03E;
+    width: 500px;
+    height: 500px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+#div2 {
+    background-color: #FFFFFF;
+    width: 500px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+}
+
+.titulo1 {
+    color: #FFFFFF;
+    font-family: 'Righteous';
+    font-weight: 300;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 11%;
+}
+
+#parag1 {
+    color: #FFFFFF;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+#parag2 {
+    color: #FFFFFF;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4%;
+
+}
+
+section div img {
+    margin-left: 38%;
+    height: 170px;
+}
+
+section div p a {
+    text-decoration: none;
+    color: #15430B;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin-left: 35%;
+}
+
+.titulo2 {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 11%;
+    color: #1A660B;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+#botao_entrar {
+    background-color: #1A660B;
+    border-style: hidden;
+    width: 160px;
+    height: 45px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    margin-top: 12%;
+}
+ section div form input {
+    height: 20px;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 6%;
+    border-style: none;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 2%;
+    
+ }
+
+ #email {
+    margin-top: 10%;
+ }
+
+ ::placeholder
+ {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: #A2A2A2;
+ } 
+
+ input:focus, input:hover {
+  
+   outline: none;
+ }
