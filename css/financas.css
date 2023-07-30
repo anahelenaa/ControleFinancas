@@ -50,7 +50,7 @@ header a {
     display: flex;
     justify-content: space-between;
     height: 100px;
-    width: 5.5%;
+    width: 6.3%;
     margin-right: 2%;
 }
 
@@ -63,7 +63,64 @@ header a {
     display: flex;
     justify-content: space-around;
     background-color: #FFFFFF;
-    height: 90px;
-    width: 90%;
-    margin-left: 8%;
+    height: 100px;
+    width: 93%;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-top: 2.5%;
+    box-shadow: 5px 5px 6px #94ad92;
+    border-radius: 7px;
 }
+
+#sec1 {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+#sec1 div div h2 {
+    font-weight: 500;
+}
+
+.filhos_div_infos {
+
+}
+
+#bot_vis {
+    border: 0px;
+    background-color: #FFFFFF;
+    height: 31px;
+    width: 31px;
+}
+
+#bot_vis img {
+    height: 30px;
+    width: 30px;
+}
+
+#prgf1 {
+    color: #51B03E;
+    font-size: 22px;
+}
+
+#prgf2 {
+    color: #E03636;
+    font-size: 22px;
+
+}
+
+#prgf3 {
+    color: #FE810E;
+    font-size: 22px;
+
+}
+
+#prgf4 {
+    color: #5692EC;
+    font-size: 22px;
+
+}
+
+
