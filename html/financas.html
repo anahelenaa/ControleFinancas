@@ -38,5 +38,41 @@
             <button id="bot_vis"><img src="../imagens/icone_visibilidade.png" alt="icone visibilidade"></button>
         </div>
     </section>
+    <section>
+        <div>
+            <button type="button" onclick="Function1()">Balanço Geral</button>
+            <button type="button" onclick="Function2()">Despesas</button>
+            <button type="button" onclick="Function3()">Receita</button>
+        </div>
+        <div id="div1_f">
+            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        </div>
+        <div id="div2_f">
+            <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+        </div>
+        <div id="div3_f">
+            <p>ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</p>
+        </div>
+    </section>
+
+    <script>
+        function Function1() {
+            document.getElementById("div2_f").style.display = "none";
+            document.getElementById("div3_f").style.display = "none";
+            document.getElementById("div1_f").style.setProperty('display', 'inline');
+        }
+
+        function Function2() {
+            document.getElementById("div1_f").style.display = "none";
+            document.getElementById("div3_f").style.display = "none";
+            document.getElementById("div2_f").style.display = "inline";
+        }
+
+        function Function3() {
+            document.getElementById("div1_f").style.display = "none";
+            document.getElementById("div2_f").style.display = "none";
+            document.getElementById("div3_f").style.display = "inline";
+        }
+    </script>
 </body>
 </html>
