@@ -35,12 +35,12 @@
                 <h2>Restante:</h2>
                 <p id="prgf4">R$0000,00</p>
             </div>
-            <button id="bot_vis"><img src="../imagens/icone_visibilidade.png" alt="icone visibilidade"></button>
+            <button id="bot_vis"><img src="../imagens/icone_visibilidade.png" alt="icone visibilidade" type="button" onclick="HideFunction()" ></button>
         </div>
     </section>
     <section>
         <div>
-            <button type="button" onclick="Function1()">Balanço Geral</button>
+            <button type="button" onclick="Function1()" onfocus="">Balanço Geral</button>
             <button type="button" onclick="Function2()">Despesas</button>
             <button type="button" onclick="Function3()">Receita</button>
         </div>
@@ -56,23 +56,33 @@
     </section>
 
     <script>
+
+        function HideFunction() {
+            document.getElementById("prgf1").style.visibility = "hidden";
+            document.getElementById("prgf2").style.visibility = "hidden";
+            document.getElementById("prgf3").style.visibility = "hidden";
+            document.getElementById("prgf4").style.visibility = "hidden";
+            
+        }
         function Function1() {
             document.getElementById("div2_f").style.display = "none";
             document.getElementById("div3_f").style.display = "none";
-            document.getElementById("div1_f").style.setProperty('display', 'inline');
+            document.getElementById("div1_f").style.display = "flex";
         }
 
         function Function2() {
             document.getElementById("div1_f").style.display = "none";
             document.getElementById("div3_f").style.display = "none";
-            document.getElementById("div2_f").style.display = "inline";
+            document.getElementById("div2_f").style.display = "flex";
         }
 
         function Function3() {
             document.getElementById("div1_f").style.display = "none";
             document.getElementById("div2_f").style.display = "none";
-            document.getElementById("div3_f").style.display = "inline";
+            document.getElementById("div3_f").style.display = "flex";
         }
+
+        
     </script>
 </body>
 </html>
